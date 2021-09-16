@@ -49,17 +49,17 @@ const Edit = (props) => {
                 <h1>Edit me!!</h1>
                 <div className="form-group">
                     <input name="title" value={form.title} className="form-control" type="text" placeholder="title" onChange={onChangeHandler} />
-                    <span className="alert-danger">{errors.name && errors.name.message}</span>
+                    <span className="alert-danger">{errors.title && errors.title.message}</span>
                 </div>
 
                 <div className="form-group">
-                    <input name="price" value={form.price} className="form-control" type="number" placeholder="price" onChange={onChangeHandler} />
-                    <span className="alert-danger">{errors.artist && errors.artist.message}</span>
+                    <input name="price" $ value={form.price} className="form-control" type="number" placeholder="price" onChange={onChangeHandler} />
+                    <span className="alert-danger">{errors.price && errors.price.message}</span>
                 </div>
 
                 <div className="form-group">
                     <input name="description" value={form.description} className="form-control" type="text" placeholder="description" onChange={onChangeHandler} />
-                    <span className="alert-danger">{errors.imgURL && errors.imgURL.message}</span>
+                    <span className="alert-danger">{errors.description && errors.description.message}</span>
                 </div>
 
                 <input type="submit" className="btn btn-primary"/>

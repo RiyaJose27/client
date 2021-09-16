@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.productCard{
+  border: 1px solid black;
+  width: 300px;
+  margin-top: 50px;
+  align-items: center;
+  margin-left: 200px;
+  /* display: flex;
+  justify-content: center; */
+ 
+
+}
+.delete{
+  border: 1px solid palegreen;
+  color: blue;
+  background-color: powderblue;
+  border-radius: 15px;
+  height: 45px;
+  width: 45px;
+}
+
+
