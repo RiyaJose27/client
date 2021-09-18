@@ -47,7 +47,7 @@ const Create = (props) => {
                 </div>
 
                 <div className="form-group">
-                    <input name="price" placeholder="price" className="form-control" type="number" onChange={onChangeHandler} />
+                <input name="price" placeholder="price" className="form-control" type="number" onChange={onChangeHandler}/>
                     <span className="alert-danger">{errors.price && errors.price.message}</span>
                 </div>
                 <div className="form-group">
