@@ -53,7 +53,7 @@ const Edit = (props) => {
                 </div>
 
                 <div className="form-group">
-                    <input name="price" $ value={form.price} className="form-control" type="number" placeholder="price" onChange={onChangeHandler} />
+                    <input name="price" value={form.price} className="form-control" type="number" placeholder="price" onChange={onChangeHandler} />
                     <span className="alert-danger">{errors.price && errors.price.message}</span>
                 </div>
 
